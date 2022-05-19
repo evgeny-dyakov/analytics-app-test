@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test_евгений_дьяков</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header></header>
+
+<main>
+
+  <h1 class="visually-hidden">Общая аналитика</h1>
+
+  <section class="main-stats">
+    <div class="container">
+
+      <h2 class="visually-hidden">Основная статистика</h2>
+
+      <ul class="main-stats-list">
+        <li class="main-stats-list__category">
+          <a class="main-stats-list__category-name" href="#">Всего инцидентов</a>
+          <div class="main-stats-list__category-wrapper">
+            <div class="main-stats-list__category-count">1576</div>
+            <div class="main-stats-list__category-percent-change main-stats-list__category-percent-change--up main-stats-list__category-percent-change--attn">+16%</div>
+          </div>
+        </li>
+        <li class="main-stats-list__category main-stats-list__category--high-importance">
+          <a class="main-stats-list__category-name" href="#">Высокая важность</a>
+          <div class="main-stats-list__category-wrapper">
+            <div class="main-stats-list__category-count">157</div>
+            <div class="main-stats-list__category-percent-change main-stats-list__category-percent-change--up main-stats-list__category-percent-change--attn">+8%</div>
+          </div>
+        </li>
+        <li class="main-stats-list__category main-stats-list__category--average-importance">
+          <a class="main-stats-list__category-name" href="#">Средняя важность</a>
+          <div class="main-stats-list__category-wrapper">
+            <div class="main-stats-list__category-count">253</div>
+            <div class="main-stats-list__category-percent-change main-stats-list__category-percent-change--up main-stats-list__category-percent-change--attn">+3%</div>
+          </div>
+        </li>
+        <li class="main-stats-list__category">
+          <a class="main-stats-list__category-name" href="#">Всего связей</a>
+          <div class="main-stats-list__category-wrapper">
+            <div class="main-stats-list__category-count">88</div>
+            <div class="main-stats-list__category-percent-change main-stats-list__category-percent-change--up">+2%</div>
+          </div>
+        </li>
+        <li class="main-stats-list__category">
+          <a class="main-stats-list__category-name" href="#">Исходящий трафик</a>
+          <div class="main-stats-list__category-wrapper">
+            <div class="main-stats-list__category-count">635 МБ</div>
+            <div class="main-stats-list__category-percent-change main-stats-list__category-percent-change--down">-8%</div>
+          </div>
+        </li>
+        <li class="main-stats-list__category">
+          <a class="main-stats-list__category-name" href="#">Входящий тарфик</a>
+          <div class="main-stats-list__category-wrapper">
+            <div class="main-stats-list__category-count">475 МБ</div>
+            <div class="main-stats-list__category-percent-change main-stats-list__category-percent-change--up">+ 16%</div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="main-content">
+    <div class="main-content__container container">
+
+      <h2 class="visually-hidden">Основной контент</h2>
+
+      <p class="main-content__status">Данные не обнаружены</p>
+
+    </div>
+  </section>
+
+  <section class="stats-panel">
+    <div class="stats-panel__container container">
+
+      <h2 class="visually-hidden">Статистика по категориям</h2>
+
+      <table class="user-incidents">
+        <caption class="user-incidents__caption">
+          <a href="#">Пользователи по инцидентам</a>
+        </caption>
+        <tr>
+          <th class="user-incidents__headline-users">Пользователь</th>
+          <th class="user-incidents__headline-incidents-count" colspan="3">Инциденты</th>
+        </tr>
+        <tr>
+          <td class="user-incidents__user">
+            <a href="#">Андрей Иванов</a>
+          </td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--bad">50</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--neutral">18</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--good">31</td>
+        </tr>
+        <tr>
+          <td class="user-incidents__user">
+            <a href="#">Михаил Вешкин</a>
+          </td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--bad">47</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--neutral">24</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--good user-incidents__incidents-count--zero">0</td>
+        </tr>
+        <tr>
+          <td class="user-incidents__user">
+            <a href="#">Семен Измайлов</a>
+          </td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--bad">32</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--neutral user-incidents__incidents-count--zero">0</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--good">12</td>
+        </tr>
+        <tr>
+          <td class="user-incidents__user">
+            <a href="#">Николай Островский</a>
+          </td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--bad">11</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--neutral">7</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--good user-incidents__incidents-count--zero">0</td>
+        </tr>
+        <tr>
+          <td class="user-incidents__user">
+            <a href="#">Константин Константинопольский</a>
+          </td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--bad user-incidents__incidents-count--zero">0</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--neutral user-incidents__incidents-count--zero">0</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--good">8</td>
+        </tr>
+        <tr>
+          <td class="user-incidents__user">
+            <a href="#">Александр Овчинников</a>
+          </td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--bad user-incidents__incidents-count--zero">0</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--neutral">13</td>
+          <td class="user-incidents__incidents-count user-incidents__incidents-count--good">7</td>
+        </tr>
+      </table>
+
+      <table class="site-categories">
+        <caption class="site-categories__caption">
+          <a href="#">Категории сайтов</a>
+        </caption>
+        <tr>
+          <th class="site-categories__headline-category">
+            <button class="site-categories__sort-button site-categories__sort-button--min-to-max">Категория</button>
+          </th>
+          <th class="site-categories__headline-incidents-count">Количество инцидентов</th>
+        </tr>
+        <tr>
+          <td class="site-categories__category">
+            <a href="#">Поисковики</a>
+          </td>
+          <td class="site-categories__incidents-count">
+            <span class="sit-categories__incidents-count-data">1 257</span>
+            <span class="site-categories__percent-change site-categories__percent-change--up">+3%</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="site-categories__category">
+            <a href="#">Новостные порталы</a>
+          </td>
+          <td class="site-categories__incidents-count">
+            <span class="sit-categories__incidents-count-data">1 129</span>
+            <span class="site-categories__percent-change site-categories__percent-change--down">-2.1%</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="site-categories__category">
+            <a href="#">Развлекательные</a>
+          </td>
+          <td class="site-categories__incidents-count">
+            <span class="sit-categories__incidents-count-data">987</span>
+            <span class="site-categories__percent-change site-categories__percent-change--up">+7%</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="site-categories__category">
+            <a href="#" title="Категория с длинным названием, которое обрезается по ширине">Категория с длинным названием, которое обрезается по ширине</a>
+          </td>
+          <td class="site-categories__incidents-count">
+            <span class="sit-categories__incidents-count-data">596</span>
+            <span class="site-categories__percent-change site-categories__percent-change--down">-3%</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="site-categories__category">
+            <a href="#">Игры</a>
+          </td>
+          <td class="site-categories__incidents-count">
+            <span class="sit-categories__incidents-count-data">431</span>
+            <span class="site-categories__percent-change site-categories__percent-change--up">+1%</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="site-categories__category">
+            <a href="#">Форумы</a>
+          </td>
+          <td class="site-categories__incidents-count">
+            <span class="sit-categories__incidents-count-data">147</span>
+            <span class="site-categories__percent-change site-categories__percent-change--up">+2%</span>
+          </td>
+        </tr>
+      </table>
+
+      <table class="discipline">
+        <caption class="discipline__caption">
+          <a href="#">Дисциплина</a>
+        </caption>
+        <tr>
+          <th class="discipline__headline-date">Дата</th>
+          <th class="discipline__headline-come" colspan="2">Приход</th>
+          <th class="discipline__headline-leave" colspan="2">Уход</th>
+          <th class="discipline__headline-work-time">Рабочее время</th>
+        </tr>
+        <tr>
+          <td class="discipline__date">
+            <a href="#">20.04</a>
+          </td>
+          <td class="discipline__come-time">08:07</td>
+          <td class="discipline__come-time-difference discipline__come-time-difference--later">+7мин</td>
+          <td class="discipline__leave-time">16:55</td>
+          <td class="discipline__leave-time-difference discipline__leave-time-difference--earlier">-5мин</td>
+          <td class="discipline__work-time discipline__work-time--less">07:48</td>
+        </tr>
+        <tr>
+          <td class="discipline__date">
+            <a href="#">19.04</a>
+          </td>
+          <td class="discipline__come-time">07:56</td>
+          <td class="discipline__come-time-difference discipline__come-time-difference--earlier">-4мин</td>
+          <td class="discipline__leave-time">16:56</td>
+          <td class="discipline__leave-time-difference discipline__leave-time-difference--later">+4мин</td>
+          <td class="discipline__work-time discipline__work-time--norm">08:00</td>
+        </tr>
+        <tr>
+          <td class="discipline__date">
+            <a href="#">18.04</a>
+          </td>
+          <td class="discipline__come-time">09:30</td>
+          <td class="discipline__come-time-difference discipline__come-time-difference--later">+1ч 30мин</td>
+          <td class="discipline__leave-time">18:30</td>
+          <td class="discipline__leave-time-difference discipline__leave-time-difference--later">+1ч 30мин</td>
+          <td class="discipline__work-time discipline__work-time--norm">08:00</td>
+        </tr>
+        <tr>
+          <td class="discipline__date">
+            <a href="#">17.04</a>
+          </td>
+          <td class="discipline__come-time">08:47</td>
+          <td class="discipline__come-time-difference discipline__come-time-difference--later">+47мин</td>
+          <td class="discipline__leave-time">17:47</td>
+          <td class="discipline__leave-time-difference discipline__leave-time-difference--later">+47мин</td>
+          <td class="discipline__work-time discipline__work-time--norm">08:00</td>
+        </tr>
+        <tr>
+          <td class="discipline__date">
+            <a href="#">16.04</a>
+          </td>
+          <td class="discipline__come-time">08:12</td>
+          <td class="discipline__come-time-difference discipline__come-time-difference--later">+12мин</td>
+          <td class="discipline__leave-time">16:55</td>
+          <td class="discipline__leave-time-difference discipline__leave-time-difference--earlier">-5мин</td>
+          <td class="discipline__work-time discipline__work-time--less">07:43</td>
+        </tr>
+        <tr>
+          <td class="discipline__date">
+            <a href="#">14.04</a>
+          </td>
+          <td class="discipline__come-time">08:00</td>
+          <td class="discipline__come-time-difference">–</td>
+          <td class="discipline__leave-time">16:57</td>
+          <td class="discipline__leave-time-difference discipline__leave-time-difference--earlier">-3мин</td>
+          <td class="discipline__work-time discipline__work-time--less">07:57</td>
+        </tr>
+      </table>
+
+    </div>
+  </section>
+
+</main>
+
+<footer></footer>
+
+<script>
+  let sortButton = document.querySelector('.site-categories__sort-button');
+
+  sortButton.onclick = function () {
+    sortButton.classList.toggle('site-categories__sort-button--min-to-max');
+    sortButton.classList.toggle('site-categories__sort-button--max-to-min');
+  };
+</script>
+
+</body>
+</html>
